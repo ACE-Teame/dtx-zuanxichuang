@@ -1,0 +1,42 @@
+* {	margin: 0; padding: 0; }
+body { background: #fff; font-family: Arial, '微软雅黑'; }
+ul li {	list-style: none; }
+p { padding: 5px 0; line-height: 24px; }
+a:hover, a:link, a:visited, a:active { text-decoration: none; color: #fff; }
+img { display: block; width: 100%; }
+.container { margin: 0 auto; max-width: 700px; }
+.clear { content: ''; display: table; clear: both; }
+.fl { float: left; }
+.fr { float: right; }
+
+footer { padding: 10px 0; background: #29acbf; color: #fff; }
+footer p { padding: ; text-align: center; font-size: 14px; }
+
+.entry { padding: 5px 0; }
+.entry input[type=text] { display: block; margin: 0 auto; height: 36px;padding: 0 8px; line-height: 16px; width: 100%; font-size: 16px;color: #333;border-radius: 5px; border: 1px #ccc solid; box-sizing: border-box; }
+.entry select { display: block; margin: 0 auto; height: 36px; padding: 0 8px; width: 100%; font-size: 16px; line-height: 16px; color: #333; border-radius: 5px; border: 1px #ccc solid; }
+.blue { color: #5dace6; }
+.red { color: #f93515; }
+
+.form { padding: 20px 10px 40px; }
+.form .title { text-align: center; color: #333; font-weight: bolder; font-size: 18px; padding: 10px 0; }
+.form .entry label { width: 100%; font-size: 12px; display: block; padding-bottom: 5px; }
+.form .entry label span { color: red; display: inline-block; padding-left: 3px; }
+a.btn { display: block; margin: 0 auto; width: 100%; background: #ffb81e; border-radius: 5px; color: #fff; text-align: center; padding: 10px 0; font-size: 18px; line-height: 18px; margin-top: 20px; box-shadow: 2px 3px 3px #863c08; }
+.tab-1 { display: none; }
+.tab-1.active { display: block; }
+.tab-2 { display: none; }
+.tab-2.active { display: block; }
+
+
+.comment { padding: 20px 5px; background: #29acbf; }
+.comment .item { border: 1px #eee solid; margin-bottom: 10px; padding: 5px; font-size: 14px; background: #fff; }
+.comment .top { width: 100%; }
+.comment .top .fl:first-child{ width: 20%; padding-right: 3%; }
+.comment .top .fl:last-child{ width: 77%; }
+.comment .top .name { padding-bottom: 3px; }
+.comment .top .tip { padding: 3px 0; }
+.comment .item .text { color: #666; }
+
+@media all and (max-width: 480px){
+}
